@@ -2486,7 +2486,7 @@ module.exports = "<ion-content>\n  <img [src]=\"eventImage\" alt=\"\">\n\n</ion-
 /***/ ((module) => {
 
 "use strict";
-module.exports = "<google-map  width=\" 100%\" [options]=\"options\" (mapClick)=\"mapClick($event);\">\n  <div *ngIf=\"markerPosition\">\n    <map-marker  *ngFor=\"let markerPosition of markerPosition\" \n                [position]=\"markerPosition\"></map-marker>\n  </div>\n</google-map>";
+module.exports = "<google-map width=\" 100%\" [options]=\"options\" (mapClick)=\"mapClick($event);\">\r\n  <div *ngIf=\"markerPosition\">\r\n    <map-marker  *ngFor=\"let markerPosition of markerPosition\" \r\n                [position]=\"markerPosition\"></map-marker>\r\n  </div>\r\n</google-map>";
 
 /***/ }),
 
